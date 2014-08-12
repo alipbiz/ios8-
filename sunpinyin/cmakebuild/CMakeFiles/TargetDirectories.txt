@@ -1,0 +1,2 @@
+/Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/genpyt.dir
+/Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/lexicon.dir

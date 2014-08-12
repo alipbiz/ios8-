@@ -1,0 +1,706 @@
+The system is: Darwin - 13.0.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is AppleClang, found in "/Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/3.0.0/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is AppleClang, found in "/Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/3.0.0/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1300329186/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1300329186.dir/build.make CMakeFiles/cmTryCompileExec1300329186.dir/build
+/usr/local/bin/cmake -E cmake_progress_report /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1300329186.dir/testCCompiler.c.o
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk   -o CMakeFiles/cmTryCompileExec1300329186.dir/testCCompiler.c.o   -c /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec1300329186
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1300329186.dir/link.txt --verbose=1
+/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec1300329186.dir/testCCompiler.c.o  -o cmTryCompileExec1300329186  
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec684662662/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec684662662.dir/build.make CMakeFiles/cmTryCompileExec684662662.dir/build
+/usr/local/bin/cmake -E cmake_progress_report /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec684662662.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk   -o CMakeFiles/cmTryCompileExec684662662.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.0/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec684662662
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec684662662.dir/link.txt --verbose=1
+/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTryCompileExec684662662.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec684662662   
+Apple LLVM version 5.0 (clang-500.2.79) (based on LLVM 3.3svn)
+Target: x86_64-apple-darwin13.0.0
+Thread model: posix
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.9.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -o cmTryCompileExec684662662 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec684662662.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-224.1
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 armv6m armv7m armv7em
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec684662662/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec684662662.dir/build.make CMakeFiles/cmTryCompileExec684662662.dir/build]
+  ignore line: [/usr/local/bin/cmake -E cmake_progress_report /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec684662662.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk   -o CMakeFiles/cmTryCompileExec684662662.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.0/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec684662662]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec684662662.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTryCompileExec684662662.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec684662662   ]
+  ignore line: [Apple LLVM version 5.0 (clang-500.2.79) (based on LLVM 3.3svn)]
+  ignore line: [Target: x86_64-apple-darwin13.0.0]
+  ignore line: [Thread model: posix]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.9.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -o cmTryCompileExec684662662 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec684662662.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.9.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec684662662] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec684662662.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  collapse lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.0/lib/darwin/libclang_rt.osx.a] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks]
+  implicit libs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.osx.a]
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec400164391/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec400164391.dir/build.make CMakeFiles/cmTryCompileExec400164391.dir/build
+/usr/local/bin/cmake -E cmake_progress_report /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec400164391.dir/testCXXCompiler.cxx.o
+/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk   -o CMakeFiles/cmTryCompileExec400164391.dir/testCXXCompiler.cxx.o -c /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec400164391
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec400164391.dir/link.txt --verbose=1
+/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec400164391.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec400164391  
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec19759211/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec19759211.dir/build.make CMakeFiles/cmTryCompileExec19759211.dir/build
+/usr/local/bin/cmake -E cmake_progress_report /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec19759211.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk   -o CMakeFiles/cmTryCompileExec19759211.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec19759211
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec19759211.dir/link.txt --verbose=1
+/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTryCompileExec19759211.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec19759211   
+Apple LLVM version 5.0 (clang-500.2.79) (based on LLVM 3.3svn)
+Target: x86_64-apple-darwin13.0.0
+Thread model: posix
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.9.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -o cmTryCompileExec19759211 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec19759211.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-224.1
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 armv6m armv7m armv7em
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec19759211/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec19759211.dir/build.make CMakeFiles/cmTryCompileExec19759211.dir/build]
+  ignore line: [/usr/local/bin/cmake -E cmake_progress_report /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec19759211.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk   -o CMakeFiles/cmTryCompileExec19759211.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec19759211]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec19759211.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTryCompileExec19759211.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec19759211   ]
+  ignore line: [Apple LLVM version 5.0 (clang-500.2.79) (based on LLVM 3.3svn)]
+  ignore line: [Target: x86_64-apple-darwin13.0.0]
+  ignore line: [Thread model: posix]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.9.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -o cmTryCompileExec19759211 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec19759211.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.9.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec19759211] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec19759211.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  collapse lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.0/lib/darwin/libclang_rt.osx.a] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks]
+  implicit libs: [c++;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.osx.a]
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks]
+
+
+Determining if files assert.h exist passed with the following output:
+Change Dir: /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2759245838/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2759245838.dir/build.make CMakeFiles/cmTryCompileExec2759245838.dir/build
+/usr/local/bin/cmake -E cmake_progress_report /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2759245838.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk   -o CMakeFiles/cmTryCompileExec2759245838.dir/CheckIncludeFiles.c.o   -c /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2759245838
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2759245838.dir/link.txt --verbose=1
+/usr/bin/cc    -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec2759245838.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2759245838  
+
+
+Determining if files dlfcn.h exist passed with the following output:
+Change Dir: /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1815788072/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1815788072.dir/build.make CMakeFiles/cmTryCompileExec1815788072.dir/build
+/usr/local/bin/cmake -E cmake_progress_report /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1815788072.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk   -o CMakeFiles/cmTryCompileExec1815788072.dir/CheckIncludeFiles.c.o   -c /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1815788072
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1815788072.dir/link.txt --verbose=1
+/usr/bin/cc    -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec1815788072.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1815788072  
+
+
+Determining if files fcntl.h exist passed with the following output:
+Change Dir: /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2918248323/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2918248323.dir/build.make CMakeFiles/cmTryCompileExec2918248323.dir/build
+/usr/local/bin/cmake -E cmake_progress_report /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2918248323.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk   -o CMakeFiles/cmTryCompileExec2918248323.dir/CheckIncludeFiles.c.o   -c /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2918248323
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2918248323.dir/link.txt --verbose=1
+/usr/bin/cc    -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec2918248323.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2918248323  
+
+
+Determining if files getopt.h exist passed with the following output:
+Change Dir: /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2230013459/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2230013459.dir/build.make CMakeFiles/cmTryCompileExec2230013459.dir/build
+/usr/local/bin/cmake -E cmake_progress_report /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2230013459.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk   -o CMakeFiles/cmTryCompileExec2230013459.dir/CheckIncludeFiles.c.o   -c /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2230013459
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2230013459.dir/link.txt --verbose=1
+/usr/bin/cc    -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec2230013459.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2230013459  
+
+
+Determining if files iconv.h exist passed with the following output:
+Change Dir: /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1116785027/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1116785027.dir/build.make CMakeFiles/cmTryCompileExec1116785027.dir/build
+/usr/local/bin/cmake -E cmake_progress_report /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1116785027.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk   -o CMakeFiles/cmTryCompileExec1116785027.dir/CheckIncludeFiles.c.o   -c /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1116785027
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1116785027.dir/link.txt --verbose=1
+/usr/bin/cc    -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec1116785027.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1116785027  
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1241577059/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1241577059.dir/build.make CMakeFiles/cmTryCompileExec1241577059.dir/build
+/usr/local/bin/cmake -E cmake_progress_report /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1241577059.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk   -o CMakeFiles/cmTryCompileExec1241577059.dir/CheckIncludeFiles.c.o   -c /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1241577059
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1241577059.dir/link.txt --verbose=1
+/usr/bin/cc    -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec1241577059.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1241577059  
+
+
+Determining if files locale.h exist passed with the following output:
+Change Dir: /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1536197881/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1536197881.dir/build.make CMakeFiles/cmTryCompileExec1536197881.dir/build
+/usr/local/bin/cmake -E cmake_progress_report /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1536197881.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk   -o CMakeFiles/cmTryCompileExec1536197881.dir/CheckIncludeFiles.c.o   -c /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1536197881
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1536197881.dir/link.txt --verbose=1
+/usr/bin/cc    -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec1536197881.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1536197881  
+
+
+Determining if files stdlib.h exist passed with the following output:
+Change Dir: /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec118778886/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec118778886.dir/build.make CMakeFiles/cmTryCompileExec118778886.dir/build
+/usr/local/bin/cmake -E cmake_progress_report /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec118778886.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk   -o CMakeFiles/cmTryCompileExec118778886.dir/CheckIncludeFiles.c.o   -c /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec118778886
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec118778886.dir/link.txt --verbose=1
+/usr/bin/cc    -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec118778886.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec118778886  
+
+
+Determining if files string.h exist passed with the following output:
+Change Dir: /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec166638047/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec166638047.dir/build.make CMakeFiles/cmTryCompileExec166638047.dir/build
+/usr/local/bin/cmake -E cmake_progress_report /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec166638047.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk   -o CMakeFiles/cmTryCompileExec166638047.dir/CheckIncludeFiles.c.o   -c /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec166638047
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec166638047.dir/link.txt --verbose=1
+/usr/bin/cc    -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec166638047.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec166638047  
+
+
+Determining if files strings.h exist passed with the following output:
+Change Dir: /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3101245376/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3101245376.dir/build.make CMakeFiles/cmTryCompileExec3101245376.dir/build
+/usr/local/bin/cmake -E cmake_progress_report /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3101245376.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk   -o CMakeFiles/cmTryCompileExec3101245376.dir/CheckIncludeFiles.c.o   -c /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3101245376
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3101245376.dir/link.txt --verbose=1
+/usr/bin/cc    -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec3101245376.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3101245376  
+
+
+Determining if files memory.h exist passed with the following output:
+Change Dir: /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1135138361/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1135138361.dir/build.make CMakeFiles/cmTryCompileExec1135138361.dir/build
+/usr/local/bin/cmake -E cmake_progress_report /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1135138361.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk   -o CMakeFiles/cmTryCompileExec1135138361.dir/CheckIncludeFiles.c.o   -c /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1135138361
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1135138361.dir/link.txt --verbose=1
+/usr/bin/cc    -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec1135138361.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1135138361  
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2951249265/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2951249265.dir/build.make CMakeFiles/cmTryCompileExec2951249265.dir/build
+/usr/local/bin/cmake -E cmake_progress_report /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2951249265.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk   -o CMakeFiles/cmTryCompileExec2951249265.dir/CheckIncludeFiles.c.o   -c /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2951249265
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2951249265.dir/link.txt --verbose=1
+/usr/bin/cc    -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec2951249265.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2951249265  
+
+
+Determining if files wchar.h exist passed with the following output:
+Change Dir: /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3273519602/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3273519602.dir/build.make CMakeFiles/cmTryCompileExec3273519602.dir/build
+/usr/local/bin/cmake -E cmake_progress_report /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3273519602.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk   -o CMakeFiles/cmTryCompileExec3273519602.dir/CheckIncludeFiles.c.o   -c /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3273519602
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3273519602.dir/link.txt --verbose=1
+/usr/bin/cc    -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec3273519602.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3273519602  
+
+
+Determining if files unistd.h exist passed with the following output:
+Change Dir: /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1179157622/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1179157622.dir/build.make CMakeFiles/cmTryCompileExec1179157622.dir/build
+/usr/local/bin/cmake -E cmake_progress_report /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1179157622.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk   -o CMakeFiles/cmTryCompileExec1179157622.dir/CheckIncludeFiles.c.o   -c /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1179157622
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1179157622.dir/link.txt --verbose=1
+/usr/bin/cc    -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec1179157622.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1179157622  
+
+
+Determining if files sys/mman.h exist passed with the following output:
+Change Dir: /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec888657240/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec888657240.dir/build.make CMakeFiles/cmTryCompileExec888657240.dir/build
+/usr/local/bin/cmake -E cmake_progress_report /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec888657240.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk   -o CMakeFiles/cmTryCompileExec888657240.dir/CheckIncludeFiles.c.o   -c /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec888657240
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec888657240.dir/link.txt --verbose=1
+/usr/bin/cc    -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec888657240.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec888657240  
+
+
+Determining if files sys/stat.h exist passed with the following output:
+Change Dir: /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2259007113/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2259007113.dir/build.make CMakeFiles/cmTryCompileExec2259007113.dir/build
+/usr/local/bin/cmake -E cmake_progress_report /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2259007113.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk   -o CMakeFiles/cmTryCompileExec2259007113.dir/CheckIncludeFiles.c.o   -c /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2259007113
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2259007113.dir/link.txt --verbose=1
+/usr/bin/cc    -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec2259007113.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2259007113  
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1764988098/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1764988098.dir/build.make CMakeFiles/cmTryCompileExec1764988098.dir/build
+/usr/local/bin/cmake -E cmake_progress_report /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1764988098.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk   -o CMakeFiles/cmTryCompileExec1764988098.dir/CheckIncludeFiles.c.o   -c /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1764988098
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1764988098.dir/link.txt --verbose=1
+/usr/bin/cc    -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec1764988098.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1764988098  
+
+
+Determining if the function getopt_long exists passed with the following output:
+Change Dir: /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec910156836/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec910156836.dir/build.make CMakeFiles/cmTryCompileExec910156836.dir/build
+/usr/local/bin/cmake -E cmake_progress_report /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec910156836.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getopt_long -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk   -o CMakeFiles/cmTryCompileExec910156836.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec910156836
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec910156836.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getopt_long -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec910156836.dir/CheckFunctionExists.c.o  -o cmTryCompileExec910156836  
+
+
+Determining if the function getpagesize exists passed with the following output:
+Change Dir: /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1995808380/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1995808380.dir/build.make CMakeFiles/cmTryCompileExec1995808380.dir/build
+/usr/local/bin/cmake -E cmake_progress_report /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1995808380.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getpagesize -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk   -o CMakeFiles/cmTryCompileExec1995808380.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1995808380
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1995808380.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getpagesize -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec1995808380.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1995808380  
+
+
+Determining if the function munmap exists passed with the following output:
+Change Dir: /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1105553743/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1105553743.dir/build.make CMakeFiles/cmTryCompileExec1105553743.dir/build
+/usr/local/bin/cmake -E cmake_progress_report /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1105553743.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=munmap -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk   -o CMakeFiles/cmTryCompileExec1105553743.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1105553743
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1105553743.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=munmap -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec1105553743.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1105553743  
+
+
+Determining if the function memset exists passed with the following output:
+Change Dir: /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1667667869/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1667667869.dir/build.make CMakeFiles/cmTryCompileExec1667667869.dir/build
+/usr/local/bin/cmake -E cmake_progress_report /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1667667869.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=memset -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk   -o CMakeFiles/cmTryCompileExec1667667869.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.0/Modules/CheckFunctionExists.c
+/usr/local/share/cmake-3.0/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'memset' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memset
+                              ^
+/usr/local/share/cmake-3.0/Modules/CheckFunctionExists.c:3:6: note: 'memset' is a builtin with type 'void *(void *, int, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memset
+                              ^
+1 warning generated.
+/usr/local/share/cmake-3.0/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'memset' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memset
+                              ^
+/usr/local/share/cmake-3.0/Modules/CheckFunctionExists.c:3:6: note: 'memset' is a builtin with type 'void *(void *, int, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memset
+                              ^
+1 warning generated.
+Linking C executable cmTryCompileExec1667667869
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1667667869.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=memset -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec1667667869.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1667667869  
+
+
+Determining if the function setlocale exists passed with the following output:
+Change Dir: /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1542005747/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1542005747.dir/build.make CMakeFiles/cmTryCompileExec1542005747.dir/build
+/usr/local/bin/cmake -E cmake_progress_report /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1542005747.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setlocale -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk   -o CMakeFiles/cmTryCompileExec1542005747.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1542005747
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1542005747.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setlocale -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec1542005747.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1542005747  
+
+
+Determining if the function strdup exists passed with the following output:
+Change Dir: /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2675806919/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2675806919.dir/build.make CMakeFiles/cmTryCompileExec2675806919.dir/build
+/usr/local/bin/cmake -E cmake_progress_report /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2675806919.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strdup -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk   -o CMakeFiles/cmTryCompileExec2675806919.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.0/Modules/CheckFunctionExists.c
+/usr/local/share/cmake-3.0/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'strdup' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strdup
+                              ^
+/usr/local/share/cmake-3.0/Modules/CheckFunctionExists.c:3:6: note: 'strdup' is a builtin with type 'char *(const char *)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strdup
+                              ^
+1 warning generated.
+/usr/local/share/cmake-3.0/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'strdup' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strdup
+                              ^
+/usr/local/share/cmake-3.0/Modules/CheckFunctionExists.c:3:6: note: 'strdup' is a builtin with type 'char *(const char *)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strdup
+                              ^
+1 warning generated.
+Linking C executable cmTryCompileExec2675806919
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2675806919.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strdup -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec2675806919.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2675806919  
+
+
+Determining if the function strndup exists passed with the following output:
+Change Dir: /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3938593136/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3938593136.dir/build.make CMakeFiles/cmTryCompileExec3938593136.dir/build
+/usr/local/bin/cmake -E cmake_progress_report /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3938593136.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strndup -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk   -o CMakeFiles/cmTryCompileExec3938593136.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.0/Modules/CheckFunctionExists.c
+/usr/local/share/cmake-3.0/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'strndup' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strndup
+                              ^
+/usr/local/share/cmake-3.0/Modules/CheckFunctionExists.c:3:6: note: 'strndup' is a builtin with type 'char *(const char *, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strndup
+                              ^
+1 warning generated.
+/usr/local/share/cmake-3.0/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'strndup' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strndup
+                              ^
+/usr/local/share/cmake-3.0/Modules/CheckFunctionExists.c:3:6: note: 'strndup' is a builtin with type 'char *(const char *, unsigned long)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strndup
+                              ^
+1 warning generated.
+Linking C executable cmTryCompileExec3938593136
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3938593136.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strndup -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec3938593136.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3938593136  
+
+
+Determining if the function strlen exists passed with the following output:
+Change Dir: /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4110828738/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec4110828738.dir/build.make CMakeFiles/cmTryCompileExec4110828738.dir/build
+/usr/local/bin/cmake -E cmake_progress_report /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4110828738.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strlen -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk   -o CMakeFiles/cmTryCompileExec4110828738.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.0/Modules/CheckFunctionExists.c
+/usr/local/share/cmake-3.0/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'strlen' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlen
+                              ^
+/usr/local/share/cmake-3.0/Modules/CheckFunctionExists.c:3:6: note: 'strlen' is a builtin with type 'unsigned long (const char *)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlen
+                              ^
+1 warning generated.
+/usr/local/share/cmake-3.0/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'strlen' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlen
+                              ^
+/usr/local/share/cmake-3.0/Modules/CheckFunctionExists.c:3:6: note: 'strlen' is a builtin with type 'unsigned long (const char *)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlen
+                              ^
+1 warning generated.
+Linking C executable cmTryCompileExec4110828738
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4110828738.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strlen -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec4110828738.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4110828738  
+
+
+Determining if the function strcpy exists passed with the following output:
+Change Dir: /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec222317719/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec222317719.dir/build.make CMakeFiles/cmTryCompileExec222317719.dir/build
+/usr/local/bin/cmake -E cmake_progress_report /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec222317719.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strcpy -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk   -o CMakeFiles/cmTryCompileExec222317719.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.0/Modules/CheckFunctionExists.c
+/usr/local/share/cmake-3.0/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'strcpy' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strcpy
+                              ^
+/usr/local/share/cmake-3.0/Modules/CheckFunctionExists.c:3:6: note: 'strcpy' is a builtin with type 'char *(char *, const char *)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strcpy
+                              ^
+1 warning generated.
+/usr/local/share/cmake-3.0/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'strcpy' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strcpy
+                              ^
+/usr/local/share/cmake-3.0/Modules/CheckFunctionExists.c:3:6: note: 'strcpy' is a builtin with type 'char *(char *, const char *)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strcpy
+                              ^
+1 warning generated.
+Linking C executable cmTryCompileExec222317719
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec222317719.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strcpy -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec222317719.dir/CheckFunctionExists.c.o  -o cmTryCompileExec222317719  
+
+
+Determining if the function log2 exists passed with the following output:
+Change Dir: /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2715795186/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2715795186.dir/build.make CMakeFiles/cmTryCompileExec2715795186.dir/build
+/usr/local/bin/cmake -E cmake_progress_report /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2715795186.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=log2 -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk   -o CMakeFiles/cmTryCompileExec2715795186.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.0/Modules/CheckFunctionExists.c
+/usr/local/share/cmake-3.0/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'log2' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS log2
+                              ^
+/usr/local/share/cmake-3.0/Modules/CheckFunctionExists.c:3:6: note: 'log2' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS log2
+                              ^
+1 warning generated.
+/usr/local/share/cmake-3.0/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'log2' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS log2
+                              ^
+/usr/local/share/cmake-3.0/Modules/CheckFunctionExists.c:3:6: note: 'log2' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS log2
+                              ^
+1 warning generated.
+Linking C executable cmTryCompileExec2715795186
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2715795186.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=log2 -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec2715795186.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2715795186  
+
+
+Determining if the function exp2 exists passed with the following output:
+Change Dir: /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3591749933/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3591749933.dir/build.make CMakeFiles/cmTryCompileExec3591749933.dir/build
+/usr/local/bin/cmake -E cmake_progress_report /Users/admin/Desktop/pinyin/sunpinyin-master-1/cmakebuild/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3591749933.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=exp2 -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk   -o CMakeFiles/cmTryCompileExec3591749933.dir/CheckFunctionExists.c.o   -c /usr/local/share/cmake-3.0/Modules/CheckFunctionExists.c
+/usr/local/share/cmake-3.0/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'exp2' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS exp2
+                              ^
+/usr/local/share/cmake-3.0/Modules/CheckFunctionExists.c:3:6: note: 'exp2' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS exp2
+                              ^
+1 warning generated.
+/usr/local/share/cmake-3.0/Modules/CheckFunctionExists.c:3:6: warning: incompatible redeclaration of library function 'exp2' [-Wincompatible-library-redeclaration]
+char CHECK_FUNCTION_EXISTS();
+     ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS exp2
+                              ^
+/usr/local/share/cmake-3.0/Modules/CheckFunctionExists.c:3:6: note: 'exp2' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS exp2
+                              ^
+1 warning generated.
+Linking C executable cmTryCompileExec3591749933
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3591749933.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=exp2 -arch x86_64 -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec3591749933.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3591749933  
+
+
